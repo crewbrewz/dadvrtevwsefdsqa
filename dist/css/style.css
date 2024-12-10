@@ -240,7 +240,7 @@ a {
 	justify-content: center;
 	perspective: 1000px;
 	text-decoration: none;
-	text-shadow: 4px 3px #005a0c;
+	text-shadow: 4px 3px #5a0000;
 	cursor: default;
 	transition: .5s ease;
 }
@@ -283,7 +283,7 @@ a {
 }
 
 .rotate > .wrap {
-	text-shadow: 4px 3px #096b00, 0 0 15px rgb(255 255 255 / 65%);
+	text-shadow: 4px 3px #6b0000, 0 0 15px rgb(255 255 255 / 65%);
 	border-right: .1em solid transparent;
 	animation: blink .7s infinite;
 }
@@ -294,7 +294,7 @@ a {
   --del: calc(var(--char-index) * -.5s);
   --tf: ease-in-out;
   --dir: alternate;
-  text-shadow: 4px 3px #245bb3, 0 0 15px rgb(255, 255, 255, .65);
+  text-shadow: 4px 3px #b32424, 0 0 15px rgb(255, 255, 255, .65);
 }
 
 @keyframes float {
@@ -348,7 +348,7 @@ a {
     margin: 0 auto;
 	line-height: 22px;
 	transition: .5s ease;
-	text-shadow: 4px 3px 8px #245bb3;
+	text-shadow: 4px 3px 8px #b32424;
 }
 
 .pricing-box {
@@ -438,7 +438,7 @@ a {
 
 .pricing-box:hover .pricing-header {
 	font-size: 1.27rem;
-	text-shadow: 4px 3px 8px #245bb3, 0 0 15px rgb(255, 255, 255, .65);
+	text-shadow: 4px 3px 8px #b32424, 0 0 15px rgb(255, 255, 255, .65);
 }
 
 .pricing-description {
@@ -462,7 +462,7 @@ a {
 	font-weight: 200;
 	font-size: .6rem;
 	opacity: .3;
-	text-shadow: 3px 2px 12px #245bb3;
+	text-shadow: 3px 2px 12px #b32424;
 }
 
 /**/
@@ -474,7 +474,7 @@ a {
     margin: 0 auto;
 	line-height: 22px;
 	transition: .5s ease;
-	text-shadow: 4px 3px 8px #245bb3;
+	text-shadow: 4px 3px 8px #b32424;
 }
 
 /**/
@@ -802,7 +802,7 @@ statuspage-widget:after {
 description {
 	opacity: .65;
 	font-size: .8rem;
-	text-shadow: 3px 2px 12px #245bb3;
+	text-shadow: 3px 2px 12px #b32424;
 }
 
 /*  ---  */
@@ -863,7 +863,7 @@ description {
 	margin-top: 5vh;
 	padding: 1.5rem;
 	text-align: left;
-	text-shadow: 3px 2px 18px #245bb3;
+	text-shadow: 3px 2px 18px #b32424;
 }
 
 .faq-div {
@@ -1106,7 +1106,7 @@ insta-select::-moz-selection {
 	margin-bottom: 1px;
 	border: none;
 	outline: none;
-	text-shadow: 3px 2px 12px #245bb3;
+	text-shadow: 3px 2px 12px #b32424;
 	transition: .25s ease;
 }
 
@@ -1198,7 +1198,7 @@ insta-select::-moz-selection {
 	overflow: hidden;
 	overflow-y: visible;
 	transition: .25s ease;
-	text-shadow: 0 0 12px #245bb3;
+	text-shadow: 0 0 12px #b32424;
 }
 
 .ins-navigator-content {
@@ -1993,7 +1993,7 @@ td {
 
 .true {
 	color: rgba(102, 255, 0, .7);
-	text-shadow: 0 0 8px #00ff44;
+	text-shadow: 0 0 8px #ff0000;
 }
 
 .false {
