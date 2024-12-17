@@ -8,15 +8,15 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'put random shit here',
-	  link: 'https://www.youtube.com/@fzisch',
+      name: 'haha youtube thing',
+	  link: 'https://www.youtube.com/@MythicOnTop420',
     },
   ];
 
   for (let i in links) {
     let link = links[i];
 
-    $('#marquee').append(`<a href="https://www.youtube.com/@fzisch" target="_BLANK">${link.name}</a>`);
+    $('#marquee').append(`<a href="https://www.youtube.com/@MythicOnTop420" target="_BLANK">${link.name}</a>`);
 
     link = $('#marquee').children('a').last();
 
@@ -29,7 +29,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['fzisch', 'rahhhh', 'best skid']);
+  app.titleChanger(['Mythic', 'MythicOnTop', 'Baphomet']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
