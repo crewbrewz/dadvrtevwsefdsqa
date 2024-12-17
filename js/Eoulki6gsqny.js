@@ -19,12 +19,12 @@ class _app {
     "jello"
   ];
   brandDescription = [
-    "fzisch on top",
-	"#1 skidder",
-	"i pasted this shitty website",
+    "Mystic on top",
+	"#1 satanist",
+	"bro what is this shitass website",
 	"kill yourself",
-	"the low taper fade meme is still MASSIOE",
-	"fzisch on top",
+	"goth bitches on top",
+	"Mystic on top",
    ];
 
   titleChanger = (text, delay) => {
